@@ -1,6 +1,7 @@
-var playlist = new Object();
+var playlist = new Object({});
 playlist = {
-  Maddona: "Like A Virgin"
+  artistName: "Madonna",
+  songTitle: "Like A Virgin"
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
